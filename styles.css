@@ -1,13 +1,16 @@
 /* Frame 1 *
 
+.{header 1
 display: flex;
 width: 1148px;
 height: 945px;
 
-background: #FFFFFF;
+background: #FFFFFF;}
 
 
-/* “There is a crack in everything and that’s how the light gets in.” *
+
+.header 1{
+/* <“There is a crack in everything and that’s how the light gets in.”>*
 
 display: flex;
 flex-direction: row;
@@ -22,12 +25,12 @@ font-weight: 400;
 font-size: 24px;
 line-height: 31px;
 
-color: #090909;
+color: black;
 
-“There is a crack in everything and that’s how the light gets in.”
+<“There is a crack in everything and that’s how the light gets in.”>}
 
 
-
+.header 2{
 /* Md Zawad Tanzim *
 
 display: flex;
@@ -35,7 +38,7 @@ justify-content: center; align-items: center
 width: 150px;
 height: 31px;
 left: 451px;
-top: 89px;
+top: 89px;{
 
 font-family: 'Instrument Serif';
 font-style: normal;
@@ -43,11 +46,10 @@ font-weight: 400;
 font-size: 24px;
 line-height: 31px;
 
-color: #090909;
+color: black;}
 
 
-
-
+.header 1{
 /* Line 1 *
 
 display: flex;
@@ -57,9 +59,9 @@ height: 0px;
 left: 316px;
 top: 190px;
 
-border: 1px solid #090909;
+border: 1px solid #090909;}
 
-
+.Header 1{
 /* Line 2 *
 
 display: flex;
@@ -67,31 +69,27 @@ flex-direction: row;
 width: 103px;
 height: 0px;
 left: 316px;
-top: 221px;
+top: 221px
 
-border: 1px solid #090909;
-
+border: 1px solid #090909;}
 
 /* Rectangle 1 *
-
+.title About Me {
 display: flex;
 justify-content: space-around; align-items: center;flex-direction: column
 width: 669px;
 height: 116px;
 left: 202px;
 top: 319px;
+background : #090909;}
 
-background: #090909;
-
-
-/* About Me *
-
+.about me details{
 display: flex;
 align-self: start;
 width: 65px;
 height: 26px;
 left: 489px;
-top: 319px;
+top: 319px;>
 
 font-family: 'Instrument Serif';
 font-style: normal;
@@ -100,7 +98,7 @@ font-size: 20px;
 line-height: 26px
 
 
-color: #FFFFFF;
+background colors: black;}
 
 
 
@@ -148,6 +146,8 @@ background: #090909;
 /* If I could have any superpower in the world it would be a truth detection . I would have the ability to know the truth about something. I also fed stray dogs and cats in my home country. *
 
 display: flex;
+
+
 justify-content: center
 width: 629px;
 height: 52px;
@@ -163,8 +163,7 @@ line-height: 26px;
 color: #FFFFFF;
 
 
-
-/* Fun Extras *
+.Fun Extras 
 
 display: flex;
 align-self: start;
@@ -217,7 +216,7 @@ top: 25px;
 background: #1D1B20;
 
 
-/* Nav item 1
+.Nav item 1
 
 Navigation Bar segment building blocks
 
@@ -241,7 +240,7 @@ order: 0;
 flex-grow: 1;
 
 
-/* icon-container *
+ icon-container *
 
 /* Auto layout *
 display: flex;
@@ -447,10 +446,10 @@ border: 1px solid #090909;
 /* M3/Elevation Light/3 *
 box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px rgba(0, 0, 0, 0.3);
 
-
+. within about me 
 /* I’m Md and I am from Bangladesh, South Asia . While growing up, I took care of a lot of cats within my neighbor hood. I enjoy watching anime and playing with cats. *
 
-position: absolute;
+justifying content: canter;
 width: 574px;
 height: 78px;
 left: 248px;
@@ -474,7 +473,7 @@ height: 26px;
 left: 461px;
 top: 473px;
 
-font-family: 'Instrument Serif';
+. Serif';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
